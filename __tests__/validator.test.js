@@ -73,7 +73,6 @@ describe('Validator', () => {
         name: 'spot',
         weight: '20 lbs'
       };
-
       expect(validator.validate(dog)).toBeNull();
     });
   });
