@@ -126,4 +126,5 @@ describe('validator module', () => {
 
     expect(getCaster(Promise)).toBeNull();
   });
+  
 });
